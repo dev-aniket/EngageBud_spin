@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    color: white;
+    background-image: url('./Assets/lbg.jpg ');
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width:950px){
+    body{
+        color: white;
+        background-image: url('./Assets/tbg.jpg ');
+        background-size: 100% 100%;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:480px){
+    body{
+        color: white;
+        background-image: url('./Assets/mbg.jpg ');
+        background-size: 100% 100%;
+        background-attachment:fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
